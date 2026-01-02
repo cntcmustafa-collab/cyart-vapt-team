@@ -1,40 +1,25 @@
-# Vulnerability Assessment & Penetration Testing (VAPT) – Week 2
+# Week 2 – Vulnerability Assessment and Penetration Testing
 
-## Overview
-This repository contains the documentation and artifacts for the **Week 2 Vulnerability Assessment and Penetration Testing (VAPT)** task. The objective of this task was to understand and apply VAPT concepts by performing scanning, exploitation, post-exploitation, and reporting in a controlled lab environment.
-
-The assessment was conducted using intentionally vulnerable systems to safely demonstrate real-world security testing techniques.
-
----
-
-## Scope
-- Environment: Controlled lab setup (Kali Linux and Metasploitable2 / DVWA)
-- Testing Type: Educational and authorized testing only
-- Methodology: Penetration Testing Execution Standard (PTES)
-
----
+## Objective
+Perform a full VAPT cycle on a vulnerable system to identify, exploit, and document security issues.
 
 ## Tools Used
-- **Kali Linux**
-- **Nmap** – Network and service discovery
-- **Nikto** – Web vulnerability scanning
-- **Metasploit Framework** – Exploitation and post-exploitation
-- **sqlmap** – SQL injection testing
-- **DVWA** – Vulnerable web application
-- **sha256sum** – Evidence integrity verification
+- Kali Linux
+- Nmap
+- Nikto
+- Metasploit Framework
+- sqlmap
 
----
+## Key Findings
+- Critical Samba RCE vulnerability (CVSS 9.8)
+- Anonymous FTP enabled
+- Telnet service enabled
+- Outdated Apache server
+- Exposed phpMyAdmin and MySQL services
 
-## Activities Performed
-- Vulnerability scanning and service enumeration
-- Reconnaissance and asset discovery
-- Exploitation of identified vulnerabilities
-- Post-exploitation privilege validation and evidence collection
-- Risk analysis using CVSS scoring
-- Remediation recommendations and rescan planning
-- Professional reporting and non-technical briefing
-
----
-
-## Repository Structure
+## Deliverables
+- VAPT Report (PDF)
+- Screenshots and logs
+- Email escalation
+- Workflow documentation
 
